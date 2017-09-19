@@ -54,4 +54,4 @@ public class Controller implements ActionListener{
             this.model = new Model();
         }
         }
-    }
+   }
