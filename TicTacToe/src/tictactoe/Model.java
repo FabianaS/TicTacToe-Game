@@ -35,7 +35,6 @@ public class Model {
             for (int j = 0; j <= 2; j++) {
                 sumColumns += board[j][i];
                 sumVerses += board[i][j];
-
             }
             if (Math.abs(sumColumns) == 3 || Math.abs(sumVerses) == 3) {
                 return true;
